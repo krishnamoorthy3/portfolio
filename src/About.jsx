@@ -73,13 +73,13 @@ const About = ({itemcontcom}) => {
     ]
     return (
         <>
-            <section className="padding-sec-wrapper pt-m-0">
+            <section className="padding-sec-wrapper">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-4">
+                    <div className="row row-gap-5">
+                        <div className="col-lg-4 col-md-4">
                             <Firstsec/>
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-lg-8 col-md-8">
                             <Contentap item={aboutData1}/>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ const About = ({itemcontcom}) => {
 
             <section className="padding-sec-wrapper pt-m-0">
                 <div className="container">
-                    <div className="row">
+                    <div className="row row-gap-5">
                         <div className="col-md-6">
                             <Aboutexpd data={education}/>
                         </div>
