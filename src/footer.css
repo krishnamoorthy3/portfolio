@@ -1,0 +1,16 @@
+footer{
+    margin-top: 50px;
+}
+.footer-wrapper{
+    background-color: rgba(0, 0, 0, 0.4);
+    transition-property: background-color, padding-top, padding-bottom, transform, position;
+    transition-duration: 0.5s;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    color: #fff;
+    /* box-shadow: var(--box-shadow); */
+    border: var(--border);
+    transition: 0.7s;
+    /* border-top: 1px solid rgb(255 255 255 / 29%); */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}

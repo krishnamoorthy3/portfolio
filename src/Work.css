@@ -1,0 +1,46 @@
+.work-sec-wrapp{
+    position: relative;
+    border:1px  solid #77777d33;
+    border-radius: 15px;
+}
+.work-sec-ab{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #00000085;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+}
+.work-sec-wrapp .img-work-hover{
+    overflow: hidden;
+    transition: 1s;
+}
+.work-sec-wrapp:hover .img-work-hover img{
+    transform: scale(1.5);
+    transition: 1s;
+}
+.work-sec-wrapp:hover .work-sec-ab{
+    display: flex;
+}
+.workp-fs{
+    font-size: 19px;
+    color: #fff;
+    background: #eb5d3b;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    margin: auto;
+}
+.workcontent-fs{
+    background: #121214;
+    padding: 15px;
+}

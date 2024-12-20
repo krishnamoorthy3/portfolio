@@ -1,0 +1,27 @@
+.about-exp-wrapper p{
+    margin: 5px 0;
+}
+.about-exp-wrapper{
+    border-bottom:1px solid rgba(119, 119, 125, .2);
+    padding-bottom: 19px;
+    margin-bottom: 18px;
+}
+.abt-b-inner{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.abt-b-inner-icon{
+    background: #fff;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #eb5d3b;
+    height: 47px;
+    width: 40px;
+    margin: 8px 0;
+}
+.abt-b-inner-icon svg{
+    font-size: 20px;
+}

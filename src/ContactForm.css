@@ -1,0 +1,14 @@
+.contact-form-wrapper {
+    padding: 40px;
+    margin: 40px;
+    border: 1px solid rgba(119, 119, 125, .2);
+    padding: 39px;
+    border-radius: 15px;
+}
+.contact-form-wrapper .con-frm-inp-wrapper{
+    margin: 18px auto;
+}
+.contact-form-wrapper .con-frm-inp-wrapper label{
+    padding: 10px 0;
+}
+

@@ -1,0 +1,18 @@
+.contact-info-wrapper{
+    margin: 40px;
+    border: 1px solid rgba(119, 119, 125, .2);
+    padding: 39px;
+    border-radius: 15px;
+}
+.icon-c-o{
+    color: #eb5d3b;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.con-info-inner h4,
+.con-info-inner p{
+    padding: 4px 0;
+}
+.cont-info-row-g{
+    row-gap: 16px;
+}
