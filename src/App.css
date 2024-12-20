@@ -55,9 +55,18 @@
     .home-sec-1-content{
         padding: 16px 30px;
     }
+    .contact-icons-wrapper{
+        margin:24px 0;
+    }
+    .w-90 {
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 767px) {
     .home-sec-1-content{
-        padding: 16px 30px;
+        padding: 16px 30px 40px;
+    }
+    .mtc-mob{
+        margin-top: 4px !important;
     }
 }

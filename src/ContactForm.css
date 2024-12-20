@@ -12,3 +12,12 @@
     padding: 10px 0;
 }
 
+@media only screen and (max-width:767px){
+    .contact-form-wrapper{
+        margin: 30px 0;
+        padding: 24px;
+    }
+    .contact-form-wrapper .con-frm-inp-wrapper {
+        margin: 7px auto;
+    }
+}

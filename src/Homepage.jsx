@@ -27,7 +27,7 @@ const Homepage =({itemcontcom})=>{
     
     return (
         <>
-            <section  className="padding-sec-wrapper pt-m-0">
+            <section className="padding-sec-wrapper">
                 <div className="container">
                     <div className="row row-gap-5">
                         <div className="col-lg-4 col-md-5">

@@ -9,7 +9,7 @@
 .abt-b-inner{
     display: flex;
     align-items: center;
-    gap: 30px;
+    /* gap: 30px; */
 }
 .abt-b-inner-icon{
     background: #fff;
@@ -24,4 +24,17 @@
 }
 .abt-b-inner-icon svg{
     font-size: 20px;
+}
+.abtex-h{
+    color:#ccc
+}
+@media only screen and (max-width:767px){
+    .abtex-h{
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .abtex-h{
+        font-size: 16px;
+    }
 }

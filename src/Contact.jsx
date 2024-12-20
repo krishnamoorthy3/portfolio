@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 const Contact = ({itemcontcom}) => {
     return (
         <>
-            <section>
+            <section className="padding-sec-wrapper">
                 <div className="container">
                     <div className="home-sec-1-content">
                         <div className="text-center">
@@ -23,7 +23,7 @@ const Contact = ({itemcontcom}) => {
                     </div>
                 </div>
             </section>
-            <section className="mt-5"> 
+            <section className="mt-5 mtc-mob"> 
                 <div className="container text-center pad-home-wrap">
                     <Contentap  item={itemcontcom} />
                 </div>

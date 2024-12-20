@@ -16,3 +16,12 @@
 .cont-info-row-g{
     row-gap: 16px;
 }
+@media only screen and (max-width:767px){
+    .contact-info-wrapper{
+        margin: 0;
+        padding: 24px;
+    }
+    .cont-info-row-g{
+        row-gap: 30px;
+    }
+}

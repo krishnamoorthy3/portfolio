@@ -8,15 +8,17 @@ const Aboutexpd = ({data}) => {
                 <div className="home-sec-1-content">
                 <h3 className="mb-4 pb-2">{data[0].Heading}</h3>
                 {data.map(item=>
-                    <div className="about-exp-wrapper" key={item.title}>
+                    <div className="about-exp-wrapper " key={item.title}>
                         
-                        <div className="abt-b-inner" >
-                            <div className="abt-b-inner-icon">
-                                {item.icon}
+                        <div className="abt-b-inner row" >
+                            <div className="col-2 text-center">
+                                <div className="abt-b-inner-icon">
+                                    {item.icon}
+                                </div>
                             </div>
-                            <div>
+                            <div className="col-10 ">
                                 <p>{item.year}</p>
-                                <h5 style={{"color":"#ccc"}}>{item.title}</h5>
+                                <h5 className="abtex-h">{item.title}</h5>
                                 <p>{item.role}</p>
                             </div>
                         </div>
